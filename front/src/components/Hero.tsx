@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Mail, Phone } from "lucide-react";
+import ProjectInquiry from "@/components/ProjectInquiry";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -45,12 +46,10 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-slide-up" style={{ animationDelay: "0.3s" }}>
-            <Button variant="hero" size="xl" onClick={scrollToContact}>
+            <ProjectInquiry />
+            <Button variant="heroOutline" size="xl" onClick={scrollToContact}>
               <Mail className="w-5 h-5" />
               Get In Touch
-            </Button>
-            <Button variant="heroOutline" size="xl" onClick={scrollToAbout}>
-              Learn More
             </Button>
           </div>
 

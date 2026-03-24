@@ -17,7 +17,7 @@ const Footer = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/promiseshedrack02",
+      href: "https://github.com/promise2000-oss",
     },
   ];
 
